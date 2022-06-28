@@ -13,42 +13,36 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://www.tsdlab.com/">TSD</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          This is the <b>3D lab's</b> incoming supply inspection page.<br>
+          </br>        
+          It's meant to help us inspect all incoming deliverables that feed our processes.
+          <br></br>This allows us to catch defects that would infect our deliverables to our internal customers.
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7SOdLxnnQ_6tflBub8RLr9pktIHwv5XRbi6JvvjSWoQZlDg/viewform" className={styles.card}>
+            <h2>Documentation of defects &rarr;</h2>
+            <p>Here is where you will document all errors and defects on your incoming supplies and requests.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://tsdrolando.wixsite.com/rolando-manso" className={styles.card}>
             <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Learn about the 3D print lab's current Czar!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://docs.google.com/spreadsheets/d/1rhhMFDBpNs28QK4EhNFB5ukpfqxPcfE6rxWflLVQROc/edit?resourcekey#gid=1246845015"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Review &rarr;</h2>
+            <p>See examples of properly documented defects or review your entries.</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          
         </div>
       </main>
 
@@ -58,10 +52,8 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          Powered by Rolo's imagination!
+         
         </a>
       </footer>
     </div>
